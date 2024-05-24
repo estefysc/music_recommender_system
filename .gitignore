@@ -2,3 +2,4 @@ data/
 recommenderVar/
 .env
 notes.md
+.cache
