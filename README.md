@@ -49,7 +49,8 @@ This project implements a content-based music recommendation system using Spotif
 ## Usage
 
 1. Prepare your dataset:
-   - Ensure you have the Spotify dataset CSV file in the `data/` directory.
+   - Download the Spotify 1.2M+ Songs dataset from [Kaggle](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs)
+   - Ensure you have the Spotify dataset CSV file in the `data/` directory. 
 
 2. Run the Jupyter notebook:
    ```
