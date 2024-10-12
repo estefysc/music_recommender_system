@@ -20,24 +20,30 @@ This project implements a content-based music recommendation system using Spotif
 
 ## Installation
 
-1. Clone the repository:
+This project is designed to run on WSL2 (Windows Subsystem for Linux 2) with Ubuntu. If you're not using WSL2, you may need to adjust some steps.
+
+1. Ensure you have WSL2 with Ubuntu installed on your Windows machine. If not, follow the [official Microsoft guide](https://docs.microsoft.com/en-us/windows/wsl/install) to set it up.
+
+2. Open your WSL2 Ubuntu terminal.
+
+3. Clone the repository:
    ```
    git clone https://github.com/yourusername/spotify-recommender.git
    cd spotify-recommender
    ```
 
-2. Create a virtual environment:
+4. Create a virtual environment:
    ```
-   python -m venv recommenderVar
-   source recommenderVar/bin/activate  # On Windows, use `recommenderVar\Scripts\activate`
+   python3 -m venv recommenderVar
+   source recommenderVar/bin/activate
    ```
 
-3. Install the required packages:
+5. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
 
-4. Set up your Spotify API credentials:
+6. Set up your Spotify API credentials:
    - Create a `.env` file in the project root
    - Add your Spotify API credentials:
      ```
@@ -45,6 +51,10 @@ This project implements a content-based music recommendation system using Spotif
      SPOTIPY_CLIENT_SECRET=your_client_secret
      SPOTIPY_REDIRECT_URI=your_redirect_uri
      ```
+
+7. Prepare your dataset:
+   - Download the Spotify 1.2M+ Songs dataset from [Kaggle](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs)
+   - Place the downloaded CSV file in the `data/` directory within your WSL2 Ubuntu filesystem
 
 ## Usage
 
