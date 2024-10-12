@@ -52,10 +52,6 @@ This project is designed to run on WSL2 (Windows Subsystem for Linux 2) with Ubu
      SPOTIPY_REDIRECT_URI=your_redirect_uri
      ```
 
-7. Prepare your dataset:
-   - Download the Spotify 1.2M+ Songs dataset from [Kaggle](https://www.kaggle.com/datasets/rodolfofigueroa/spotify-12m-songs)
-   - Place the downloaded CSV file in the `data/` directory within your WSL2 Ubuntu filesystem
-
 ## Usage
 
 1. Prepare your dataset:
